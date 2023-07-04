@@ -26,7 +26,7 @@ class WPRT_Create_Admin_Page {
         echo '<div class="wrap"><div id="wprt-admin-app"></div></div>';
 
         // Include the necessary script tags
-        echo '<script src="' . WPRT_URL . 'build/static/js/main.2ca2f909.js"></script>';
+        echo '<script src="' . WPRT_URL . 'build/static/js/main.dcdc44bc.js"></script>';
 
     }
 

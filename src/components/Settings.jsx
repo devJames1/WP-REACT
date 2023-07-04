@@ -4,6 +4,7 @@ import React from 'react';
 const Settings = () => {
   return (
     <React.Fragment>
+      <h2>React settings </h2>
       <form id="wprt-settings-form">
         {/* we will use table and some wordpress classname for more compactability with wordpress */}
         <table className="form-table" role="presentaion">
@@ -58,6 +59,11 @@ const Settings = () => {
             </tr>
           </tbody>
         </table>
+        <p className="submit">
+          <button type="submit" className="button button-primary">
+            Save
+          </button>
+        </p>
       </form>
     </React.Fragment>
   );

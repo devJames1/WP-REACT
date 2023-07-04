@@ -23,7 +23,7 @@ define('WPRT_URL', trailingslashit( plugins_url( '/',__FILE__)));
 
 add_action('admin_enqueue_scripts', 'load_scripts');
 function load_scripts() {
-    wp_enqueue_scripts( 'wp-react-tutorial', WPRT_URL . 'build/static/js/main.2ca2f909.js', ['jquery', 'wp-element', 'react'], wp_rand(), true);
+    wp_enqueue_scripts( 'wp-react-tutorial', WPRT_URL . 'build/static/js/main.dcdc44bc.js', ['jquery', 'wp-element', 'react'], wp_rand(), true);
     //localize variables
     wp_localize_script('wp-react-tutorial', 'appLocalizer', ['apiURL' => home_url('/wp-json'),
     'nonce' => wp_create_nonce('wp_rest')]);
